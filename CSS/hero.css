@@ -1,0 +1,6 @@
+.hero {
+  background-image: linear-gradient(to top, #76787a48, transparent), url("../images/patron.png");
+  background-size: 7.5%;
+  height: 350px;
+  left: 0px;
+}

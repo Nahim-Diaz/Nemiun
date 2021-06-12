@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nemiun</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/menu.css" />
+    <link rel="stylesheet" href="./CSS/header.css" />
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="stylesheet" href="./CSS/section.css" />
+    <link rel="stylesheet" href="./CSS/hero.css" />
+    <link rel="stylesheet" href="./CSS/footer.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    <title>The Rock (1996)</title>
+    <meta property="og:title" content="Nemiun" />
+    <meta property="og:type" content="Blog" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+  </head>
+  <body>
+    <div class="hero"></div>
+    <div class="header">
+      <header>
+        <nav class="menu">
+          <details>
+            <summary>Setup</summary>
+            <ol>
+              <li><a href="#google-chrome"> Google Chrome </a></li>
+              <li><a href="#vscode"> Visual Studio Code </a></li>
+              <li><a href="#figma">Figma </a></li>
+              <li><a href="#github">Github </a></li>
+            </ol>
+          </details>
+          <details>
+            <summary>Conceptos esenciales del Desarrollo Web</summary>
+            <ol>
+              <li><a href="#html">¿Qué es html?</a></li>
+              <li><a href="#etiquetas">Etiquetas</a></li>
+              <li><a href="#DOM">DOM</a></li>
+              <li><a href="#semántica">Semántica</a></li>
+              <li><a href="#atributos">Atributos</a></li>
+              <li><a href="#css">CSS</a></li>
+            </ol>
+          </details>
+        </nav>
+      </header>
+    </div>
+    <main class="main">
+      <div class="cabecera">
+        <h1>Curso esencial de HTML y CSS</h1>
+        <p class="introduccion">
+          Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de contenidos, en el nivel 2
+          aprenderás de componentes y en el 3 sobre layouts.
+        </p>
+      </div>
+      <hr />
+      <h2 class="setup">Setup</h2>
+      <section class="setup">
+        <img src="./images/google-chrome.png" alt="Logo de Google Chrome" title="Logo de Google Chrome" />
+        <h3 class="google-chrome" id="google-chrome">Google Chrome</h3>
+        <p>
+          Chrome va a ser <b>el navegador que utilizaremos en el curso</b> por su extenso soporte de nuevos estándares y herramientas de desarrollo
+          avanzadas y de amigable uso.
+        </p>
+        <img src="./images/vscode.png" alt="Logo de Visual Studio Code" title="Logo de Visual Studio Code" />
+        <h3 id="vscode">Visual Studio Code</h3>
+        <p>
+          Visual Studio Code es el <b>editor de texto más popular y potente del mercado actualmente</b>, su fácil uso y la capacidad de extenderlo por
+          medio de plugins lo hace el complemento perfecto para cualquier programador sin importar el lenguaje en el que se desemvuelva.
+        </p>
+        <img src="./images/figma.png" alt="Logo de Figma" title="Logo de Figma" />
+        <h3 id="figma">Figma</h3>
+        <p>
+          Figma es una la herramienta más popular en la actualidad para entregar diseños a los desarrolladores para su implementación por su
+          <b>facil uso</b> porque puede ser usado directamente desde el navegador.
+        </p>
+        <img src="./images/github.png" alt="Logo de Github" title="Logo de Github" />
+        <h3 id="github">GitHub</h3>
+        <p>
+          Así como en Facebook te encuentran tus amigos, en Github <b>encuentran otras programadoras y programadores</b> de todo el mundo, en vez de
+          subir fotos de tus viajes aquí subes tu código y puedes elegir hacerlo “open source” o guardarlo de manera privada, Github será esencial
+          para almacenar tu futuro portafolio.
+        </p>
+      </section>
+      <section class="conceptos-esenciales">
+        <h2>Conceptos esenciales del Desarrollo Web</h2>
+        <h3 id="html">¿Qué es HTML?</h3>
+        <p>
+          Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado y la estructura del
+          contenido.
+        </p>
+        <img src="./images/ejemplo-html.png" alt="Ejemplo de codigo html" title="Ejemplo de codigo html" />
+
+        <h3 id="etiquetas">Etiquetas</h3>
+        <p>
+          Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene características y
+          usos diferentes aunque visualmente den un resultado similar.
+        </p>
+        <p class="parrafo">
+          Muchas etiquetas son fácil de diferencias como los headings o las imágenes y otras diferentes como header, footer, section o div, aquí es
+          donde la semántica será la respuesta y si sabemos un poco de inglés también podremos darnos una pequeña idea de su uso pero en este curso
+          vamos a usar las más importantes y que serán parte de tu día a día como Software Developer.
+        </p>
+        <h3 id="DOM">DOM</h3>
+        <p>
+          El Document Object Model es una estructura de árbol que representará todos nuestros proyectos web como si un árbol genealógico fuera:
+          padres, hijos, hermanos con niveles infinitos. cuando entendemos esta anidación podemos identificar dependencias, herencias en css y que tan
+          complejo es nuestro proyecto.
+        </p>
+        <img src="./images/dom.png" alt="DOM de HTML" title="DOM de HTML" />
+        <h3 id="semántica">Semántica</h3>
+        <p class="parrafo">
+          La semántica le brinda sentido a cada elemento existen en un sitio web, algunos elementos será meramente decorativos y no deben significar
+          nada pero otros serán títulos y deberán estar en diferente jerarquías o alguna secciones serán más relevantes que otras, esto ayudará a los
+          motores de búsqueda como Google o Duck Duck Go a diferenciar tu contenido, categorizar y será la herramientas más valiosa para estar en los
+          primeros resultados de búsqueda SEO. También ayudará a la accesibilidad de tu sitio web, para que personas con habilidades diferentes puedan
+          entender cada contenido.
+        </p>
+        <h3 id="atributos">Atributos</h3>
+        <p class="parrafo">
+          Los atributos le dan características extra a las etiquetas para complementar información y son pre programadas por el navegador, algunos
+          atributos funcionan en todas las etiquetas de la misma forma como ‘class’ pero otros atributos funcionan en solo alguna etiquetas como src
+        </p>
+        <h3 id="css">CSS</h3>
+        <p>
+          Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de
+          documentos HTML
+        </p>
+        <img src="./images/css3.png" alt="Foto de CSS" title="Foto de CSS" />
+      </section>
+      <h2>Modelo de caja</h2>
+      <h3>El modelo de caja está compuesto por:</h3>
+      <p>
+        Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y
+        de amigable uso.
+      </p>
+      <ol>
+        <li>Tamaño del del contenido / ancho y alto</li>
+        <li>Padding / Relleno</li>
+        <li>Border / Bordes</li>
+        <li>Margin / Márgenes</li>
+      </ol>
+      <h3>Propiedades físicas para el modelo de caja:</h3>
+      <ul>
+        <li>width / height</li>
+        <li>margin / margin-top | margin-right | margin-bottom | margin-left</li>
+        <li>border / border-top | border-right | border-bottom | border-left</li>
+        <li>padding / padding-top | padding-right | padding-bottom | padding-left</li>
+      </ul>
+      <h3>Propiedades lógicas para el modelo de caja:</h3>
+      <ul>
+        <li>inline-size / block-size</li>
+        <li>margin-block | margin-inline | margin-block-start | margin-block-end | margin-inline-start | margin-inline-end</li>
+        <li>border-block | border-inline | border-block-start | border-block-end | border-inline-start | border-inline-end</li>
+        <li>padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end</li>
+      </ul>
+      <h3>Modelo de Caja</h3>
+      <img src="./images/dibujo-paint.png" alt="me gusta programar" title="me gusta programar" />
+    </main>
+    <p>
+      Si tienes alguna pregunta, no dudes en escribirme a mi <a href="mailto:fernandonahimdiaz@gmail.com" target="_blank">GMAIL</a> o a mis redes
+      sociales:
+    </p>
+    <p style="text-align: center">
+      <a href="https://www.linkedin.com/in/nahimdiaz/" target="_blank" rel="noopener"
+        ><img src="./images/linkedin.svg" alt="Logo de linkedin" height="48"
+      /></a>
+      <a href="https://twitter.com/Nahim_D" target="_blank" rel="noopener"
+        ><img src="./images/twitter.svg" alt="Logo de twitter" title="Nahim_D" height="48"
+      /></a>
+      <a href="https://t.me/NahimD" target="_blank" rel="noopener"
+        ><img src="./images/telegram.svg" alt="Logo de Telegram" title="@NahimD" height="48"
+      /></a>
+    </p>
+    <footer class="footer">
+      <h4>Fernando Nahim Díaz Osorio</h4>
+    </footer>
+  </body>
+</html>

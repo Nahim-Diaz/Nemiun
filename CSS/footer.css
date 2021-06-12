@@ -1,0 +1,12 @@
+.footer {
+  background-color: #212429;
+  width: 1366px;
+  height: 172px;
+}
+
+.footer h4 {
+  position: static;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}

@@ -1,0 +1,14 @@
+.setup h3 {
+  counter-increment: titlelist;
+}
+.setup h3::before {
+  content: counter(titlelist) ". ";
+}
+
+.conceptos-esenciales h3 {
+  counter-increment: titlelist2;
+}
+
+.conceptos-esenciales h3::before {
+  content: counter(titlelist2) ". ";
+}

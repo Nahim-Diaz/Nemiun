@@ -1,0 +1,18 @@
+.menu {
+  text-align: left;
+  font-size: 16px;
+  color: var(--gray10);
+}
+
+.menu nav details summary {
+  font-weight: bold;
+}
+
+.menu a {
+  color: var(--gray10);
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: rgb(0, 0, 0);
+}
